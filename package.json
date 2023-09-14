@@ -1,0 +1,25 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Recipe JavaScript application",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel ./index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "keywords": [],
+  "author": "Radomila",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.66.1"
+  },
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "core-js": "^3.32.1",
+    "fractional": "^1.0.0",
+    "img": "^3.0.3",
+    "parcel": "^2.9.3",
+    "regenerator-runtime": "^0.14.0"
+  }
+}
